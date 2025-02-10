@@ -78,6 +78,7 @@ public class Corredor {
     }
 
 
+    //toString, permite imprimir desde el main.
     @Override
     public String toString(){
         return "- Corredor [nombre=" + nombre + ", dorsal=" + dorsal + ", listaPatrocinadores" + listaPatrocinadores + ", importe_vuelta="+ importe_vuelta + ", numero_vueltas=" + vueltas_completadas + "]";

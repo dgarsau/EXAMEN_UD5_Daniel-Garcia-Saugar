@@ -64,6 +64,7 @@ public class Organizador {
         this.edicion = edicion;
     }
 
+    //toString, permite imprimir desde el main.
     @Override
     public String toString(){
         return "- Organizador [nombre= " + nombre + ", edicion=" + edicion + ", listaCorredores=" + listaCorredores + "]";
